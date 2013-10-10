@@ -10,15 +10,17 @@
 		19F00D9B18074A9B0081468F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F00D9A18074A9B0081468F /* Foundation.framework */; };
 		19F00D9D18074A9B0081468F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F00D9C18074A9B0081468F /* CoreGraphics.framework */; };
 		19F00D9F18074A9B0081468F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F00D9E18074A9B0081468F /* UIKit.framework */; };
-		19F00DA518074A9B0081468F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DA318074A9B0081468F /* InfoPlist.strings */; };
-		19F00DA718074A9B0081468F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F00DA618074A9B0081468F /* main.m */; };
-		19F00DAB18074A9B0081468F /* Oct10AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F00DAA18074A9B0081468F /* Oct10AppDelegate.m */; };
-		19F00DAD18074A9B0081468F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DAC18074A9B0081468F /* Images.xcassets */; };
 		19F00DB418074A9B0081468F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F00DB318074A9B0081468F /* XCTest.framework */; };
 		19F00DB518074A9B0081468F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F00D9A18074A9B0081468F /* Foundation.framework */; };
 		19F00DB618074A9B0081468F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F00D9E18074A9B0081468F /* UIKit.framework */; };
-		19F00DBE18074A9B0081468F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DBC18074A9B0081468F /* InfoPlist.strings */; };
-		19F00DC018074A9B0081468F /* Oct10Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F00DBF18074A9B0081468F /* Oct10Tests.m */; };
+		19F00DDA18074AED0081468F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DCB18074AED0081468F /* Default-568h@2x.png */; };
+		19F00DDB18074AED0081468F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DCC18074AED0081468F /* Default.png */; };
+		19F00DDC18074AED0081468F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DCD18074AED0081468F /* Default@2x.png */; };
+		19F00DDD18074AED0081468F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DCE18074AED0081468F /* InfoPlist.strings */; };
+		19F00DDE18074AED0081468F /* Hello-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19F00DD018074AED0081468F /* Hello-Info.plist */; };
+		19F00DDF18074AED0081468F /* HelloAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F00DD318074AED0081468F /* HelloAppDelegate.m */; };
+		19F00DE018074AED0081468F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F00DD418074AED0081468F /* main.m */; };
+		19F00DE118074AED0081468F /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F00DD618074AED0081468F /* View.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,25 +31,34 @@
 			remoteGlobalIDString = 19F00D9618074A9B0081468F;
 			remoteInfo = Oct10;
 		};
+		19F00DE318074AED0081468F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19F00DD718074AED0081468F /* Hello.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39768BDD17C421B00087FDD0;
+			remoteInfo = Hello;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19F00D9718074A9B0081468F /* Oct10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oct10.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19A8CE4818074D6C005C385D /* Oct10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Oct10.app; path = "/Users/krinalmanakiwala/Downloads/Oct10/build/Debug-iphoneos/Oct10.app"; sourceTree = "<absolute>"; };
+		19A8CE4918074D6C005C385D /* Oct10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Oct10Tests.xctest; path = "/Users/krinalmanakiwala/Downloads/Oct10/build/Debug-iphoneos/Oct10Tests.xctest"; sourceTree = "<absolute>"; };
 		19F00D9A18074A9B0081468F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		19F00D9C18074A9B0081468F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		19F00D9E18074A9B0081468F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		19F00DA218074A9B0081468F /* Oct10-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oct10-Info.plist"; sourceTree = "<group>"; };
-		19F00DA418074A9B0081468F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		19F00DA618074A9B0081468F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		19F00DA818074A9B0081468F /* Oct10-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Oct10-Prefix.pch"; sourceTree = "<group>"; };
-		19F00DA918074A9B0081468F /* Oct10AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Oct10AppDelegate.h; sourceTree = "<group>"; };
-		19F00DAA18074A9B0081468F /* Oct10AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oct10AppDelegate.m; sourceTree = "<group>"; };
-		19F00DAC18074A9B0081468F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		19F00DB218074A9B0081468F /* Oct10Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Oct10Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19F00DB318074A9B0081468F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		19F00DBB18074A9B0081468F /* Oct10Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Oct10Tests-Info.plist"; sourceTree = "<group>"; };
-		19F00DBD18074A9B0081468F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		19F00DBF18074A9B0081468F /* Oct10Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Oct10Tests.m; sourceTree = "<group>"; };
+		19F00DCB18074AED0081468F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		19F00DCC18074AED0081468F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		19F00DCD18074AED0081468F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		19F00DCF18074AED0081468F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		19F00DD018074AED0081468F /* Hello-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Hello-Info.plist"; sourceTree = "<group>"; };
+		19F00DD118074AED0081468F /* Hello-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Hello-Prefix.pch"; sourceTree = "<group>"; };
+		19F00DD218074AED0081468F /* HelloAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloAppDelegate.h; sourceTree = "<group>"; };
+		19F00DD318074AED0081468F /* HelloAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloAppDelegate.m; sourceTree = "<group>"; };
+		19F00DD418074AED0081468F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19F00DD518074AED0081468F /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		19F00DD618074AED0081468F /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		19F00DD718074AED0081468F /* Hello.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Hello.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,20 +88,9 @@
 		19F00D8E18074A9B0081468F = {
 			isa = PBXGroup;
 			children = (
-				19F00DA018074A9B0081468F /* Oct10 */,
-				19F00DB918074A9B0081468F /* Oct10Tests */,
+				19F00DC918074AED0081468F /* Hello */,
 				19F00D9918074A9B0081468F /* Frameworks */,
-				19F00D9818074A9B0081468F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		19F00D9818074A9B0081468F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				19F00D9718074A9B0081468F /* Oct10.app */,
-				19F00DB218074A9B0081468F /* Oct10Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		19F00D9918074A9B0081468F /* Frameworks */ = {
@@ -104,44 +104,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19F00DA018074A9B0081468F /* Oct10 */ = {
+		19F00DC918074AED0081468F /* Hello */ = {
 			isa = PBXGroup;
 			children = (
-				19F00DA918074A9B0081468F /* Oct10AppDelegate.h */,
-				19F00DAA18074A9B0081468F /* Oct10AppDelegate.m */,
-				19F00DAC18074A9B0081468F /* Images.xcassets */,
-				19F00DA118074A9B0081468F /* Supporting Files */,
+				19F00DCA18074AED0081468F /* Hello */,
+				19F00DD718074AED0081468F /* Hello.xcodeproj */,
 			);
-			path = Oct10;
+			path = Hello;
 			sourceTree = "<group>";
 		};
-		19F00DA118074A9B0081468F /* Supporting Files */ = {
+		19F00DCA18074AED0081468F /* Hello */ = {
 			isa = PBXGroup;
 			children = (
-				19F00DA218074A9B0081468F /* Oct10-Info.plist */,
-				19F00DA318074A9B0081468F /* InfoPlist.strings */,
-				19F00DA618074A9B0081468F /* main.m */,
-				19F00DA818074A9B0081468F /* Oct10-Prefix.pch */,
+				19F00DCB18074AED0081468F /* Default-568h@2x.png */,
+				19F00DCC18074AED0081468F /* Default.png */,
+				19F00DCD18074AED0081468F /* Default@2x.png */,
+				19F00DCE18074AED0081468F /* InfoPlist.strings */,
+				19F00DD018074AED0081468F /* Hello-Info.plist */,
+				19F00DD118074AED0081468F /* Hello-Prefix.pch */,
+				19F00DD218074AED0081468F /* HelloAppDelegate.h */,
+				19F00DD318074AED0081468F /* HelloAppDelegate.m */,
+				19F00DD418074AED0081468F /* main.m */,
+				19F00DD518074AED0081468F /* View.h */,
+				19F00DD618074AED0081468F /* View.m */,
 			);
-			name = "Supporting Files";
+			path = Hello;
 			sourceTree = "<group>";
 		};
-		19F00DB918074A9B0081468F /* Oct10Tests */ = {
+		19F00DD818074AED0081468F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19F00DBF18074A9B0081468F /* Oct10Tests.m */,
-				19F00DBA18074A9B0081468F /* Supporting Files */,
+				19F00DE418074AED0081468F /* Hello.app */,
 			);
-			path = Oct10Tests;
-			sourceTree = "<group>";
-		};
-		19F00DBA18074A9B0081468F /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				19F00DBB18074A9B0081468F /* Oct10Tests-Info.plist */,
-				19F00DBC18074A9B0081468F /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +156,7 @@
 			);
 			name = Oct10;
 			productName = Oct10;
-			productReference = 19F00D9718074A9B0081468F /* Oct10.app */;
+			productReference = 19A8CE4818074D6C005C385D /* Oct10.app */;
 			productType = "com.apple.product-type.application";
 		};
 		19F00DB118074A9B0081468F /* Oct10Tests */ = {
@@ -179,7 +174,7 @@
 			);
 			name = Oct10Tests;
 			productName = Oct10Tests;
-			productReference = 19F00DB218074A9B0081468F /* Oct10Tests.xctest */;
+			productReference = 19A8CE4918074D6C005C385D /* Oct10Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,8 +200,14 @@
 				en,
 			);
 			mainGroup = 19F00D8E18074A9B0081468F;
-			productRefGroup = 19F00D9818074A9B0081468F /* Products */;
+			productRefGroup = 19F00D8E18074A9B0081468F;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 19F00DD818074AED0081468F /* Products */;
+					ProjectRef = 19F00DD718074AED0081468F /* Hello.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				19F00D9618074A9B0081468F /* Oct10 */,
@@ -215,13 +216,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		19F00DE418074AED0081468F /* Hello.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Hello.app;
+			remoteRef = 19F00DE318074AED0081468F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		19F00D9518074A9B0081468F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F00DA518074A9B0081468F /* InfoPlist.strings in Resources */,
-				19F00DAD18074A9B0081468F /* Images.xcassets in Resources */,
+				19F00DDD18074AED0081468F /* InfoPlist.strings in Resources */,
+				19F00DDC18074AED0081468F /* Default@2x.png in Resources */,
+				19F00DDA18074AED0081468F /* Default-568h@2x.png in Resources */,
+				19F00DDB18074AED0081468F /* Default.png in Resources */,
+				19F00DDE18074AED0081468F /* Hello-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +243,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F00DBE18074A9B0081468F /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +253,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F00DAB18074A9B0081468F /* Oct10AppDelegate.m in Sources */,
-				19F00DA718074A9B0081468F /* main.m in Sources */,
+				19F00DE118074AED0081468F /* View.m in Sources */,
+				19F00DDF18074AED0081468F /* HelloAppDelegate.m in Sources */,
+				19F00DE018074AED0081468F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19F00DC018074A9B0081468F /* Oct10Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,18 +277,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		19F00DA318074A9B0081468F /* InfoPlist.strings */ = {
+		19F00DCE18074AED0081468F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				19F00DA418074A9B0081468F /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		19F00DBC18074A9B0081468F /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19F00DBD18074A9B0081468F /* en */,
+				19F00DCF18074AED0081468F /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -442,6 +447,7 @@
 				19F00DC518074A9B0081468F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		19F00DC618074A9B0081468F /* Build configuration list for PBXNativeTarget "Oct10Tests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +456,7 @@
 				19F00DC818074A9B0081468F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
